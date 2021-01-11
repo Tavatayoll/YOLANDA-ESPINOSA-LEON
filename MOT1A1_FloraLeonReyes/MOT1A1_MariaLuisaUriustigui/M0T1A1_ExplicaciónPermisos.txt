@@ -1,0 +1,29 @@
+debe explicar permisos de lectura, escritura y ejecución, tanto para usuarios como para grupos y otros, de los archivos
+
+Existen tres tipos de usuarios que pueden manipular un archivo
+a) el propietrarios (owner) es la persona que realizo el archivo 
+b) los grupos de usuarios (group): varios usuarios formando grupos de trabajo
+c) Las otros usuarios (others) Que son todas la demas personas que no entrar en ningun grupo , ni es el propietario.
+
+En primer lugar usamos el comando ls -l, el cual nos 
+muestra los archivos y sus los permisos asignados, estos pueden ser:
+-rwxr- en donde 
+r = permiso de lectura
+w = permiso para escribir en un archivo (editarlo, borrarlo, modificarlo)
+x = permiso para ejecutar un archivo
+
+Con el comando chmod podemos cambiar permios de un archivo o carpeta y esto se puede hacer con numeros 
+7 = todos los permisos
+6 = lectura y escritura
+5 = Lectura y ejecución 
+4 = Solo lectura
+3 = Escritura y Ejecución 
+2 = Solo escitura
+1 = Solo ejecución 
+0 = Ningún permiso
+
+Cuando visualizamos un archivo con el comando "ls -l" nos mostrara, el nombre del archivo  con una serie de letras como las siguietes:
+-rwxr -xr -x
+la primera letra nos mostrara si es ur archivo o directorio, (-) archivo, (d) directorio, las sigientes 3 letras nos hablan de los permisos del propietario, las siguientes de los permisos del grupo y el resto de los permisos de otros usuarios
+
+Para modificar los permisos utili<aremos el comando "chmod" y ponemos la letra o el numero a aplicar y el nombre del archivo al que queremos aplicar los cambios o permisos anteponiendo el signo de mas (+) si queremos añadir permisos y el signo de menos (-) si queremos quitarselos 
