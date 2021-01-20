@@ -1,0 +1,12 @@
+11. Navegar alrededor del repositorio de git en línea y tratar de identificar otros proyectos por otras personas
+
+Al navehfar en git me he encontrado proyectos muy importantes, existe un boton en donde se puede explorar la 
+página web en base a los intereses segun la pagina, ya que hay otro boton que nos da algun repositorio publico por temas,
+tendencias, colecciones, eventos, 
+existen un sinfin de proyectos de todo tipo desde lo mas basico hasta lo mas complicado, realmente 
+es una plataforma para almacenar cualquier proyecto que se este realizando.
+aqui se va almacenando cualquier cambio que se realice al proyecto quedando almacenado cada paso que se 
+da hasta llegar al final.
+Tambien se da la oportunidad a los demas integrantes de la plataforma para realizar cambios y mejoras
+al mismo.
+Realmente una plataforma muy interesante en su mayoria programadores  
